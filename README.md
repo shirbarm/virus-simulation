@@ -7,3 +7,7 @@ It is assumed that when checking the state of the world (at any time pulse), the
 attached files:
 1. config.dat - components of the world of viruses.
 2. first_generation.dat - The initial generation file.
+
+compiled by c++11: 
+  g++ -std=c++11 *.h *.cpp -o simVirus
+  ./simVirus config.dat first_generation.dat
